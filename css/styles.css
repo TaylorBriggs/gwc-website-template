@@ -1,0 +1,35 @@
+/**
+* A CSS reset helps browsers render HTML5 elements more consistently.
+* A very good and popular option is normalize.css:
+* https://necolas.github.io/normalize.css/
+*/
+
+/* Some default styles -- feel free to change or remove completely! */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  color: #404040;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+section[role=main] {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 60em;
+  padding: 40px 0;
+}
+
+/* Add your custom styles below. */
